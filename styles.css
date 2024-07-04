@@ -489,6 +489,8 @@ section#team {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+  
+
 #clients div{
     margin-top: 1px;
     margin-bottom: 1px;

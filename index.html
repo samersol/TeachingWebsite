@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +21,7 @@
             <div>
                 <a href=""><img class="logo" src="Asset 2@4x.png" alt=""></a>
             </div>
-            <div>
+            <div class="scroll-reveal-fade">
                 <nav>
                     <a href="#intro" class="active">Home</a>
                     <a href="#about">About</a>
@@ -43,10 +46,10 @@
         <div class="shadow-text3"><img src="item2.png" alt=""></div>
 
         <div class="shadow-text2"><img src="item1.png" alt=""></div>
-        <div id="intro-content">
+        <div id="intro-content" class="scroll-reveal-intro">
             <h2>Discover your Potentials</h2>
             <h1>Nachhilfe<br />Für Schuler</h1>
-            <a href="" class="btn2">Get in touch</a>
+            <a href="" class="btn2 scroll-reveal-intro">Get in touch</a>
         </div>
     </section>
     <div class="line-7">
@@ -89,16 +92,16 @@
             </div>
         </div>
     </section>
-    <section id="about">
+    <section id="about" class="scroll-reveal">
         <div class="columns">
             <div>
                 <h2 class="huge-with-image">3<br>YRS</h2>
             </div>
-            <div>
+            <div class="scroll-reveal">
                 <h2 class="why">Wir haben die Beste Team</h2>
                 <h3 class="text-orange">Wir schätzen Lernen</h3>
                 <p>Seit 2021 hat Kinderbunt in Dresden mit großen Ambitionen begonnen, die bestmöglichen Ergebnisse zu erzielen und unsere Kunden zufrieden und glücklich zu machen. Drei Jahre später haben wir dieses Ziel erreicht und mehr als 120 Schüler und 70 Familien glücklich gemacht.</p>
-                <a href="" class="btn">read more</a>
+                <a href="" class="btn scroll-reveal">read more</a>
             </div>
         </div>
     </section>
@@ -138,20 +141,22 @@
     </div>
 
     <section id="why">
+        <div class="scroll-reveal-fade">
         <h2 class="why">Warum Sie uns<br>wählen sollten</h2>
         <h3 class="text-orange subheader">why choose us</h3>
+        </div>
         <div class="reasons center">
-            <div class="reason">
+            <div class="reason scroll-reveal-one">
                 <div class="number">01</div>
                 <h3>Individuell angepasste <br> Lernpläne</h3>
                 <p>Wir erstellen maßgeschneiderte Lernpläne, die auf die spezifischen Bedürfnisse und Ziele jedes Schülers zugeschnitten sind.</p>
             </div>
-            <div class="reason">
+            <div class="reason scroll-reveal-two">
                 <div class="number">02</div>
                 <h3>Flexible <br> Lernzeiten</h3>
                 <p>Unsere Tutoren sind hochqualifiziert und erfahren in ihrem Fachgebiet. Sie sind leidenschaftlich daran interessiert, ihr Wissen zu teilen und Schülern zu helfen, erfolgreich zu sein.</p>
             </div>
-            <div class="reason">
+            <div class="reason scroll-reveal-thr">
                 <div class="number">03</div>
                 <h3>Nette <br> Tutoren</h3>
                 <p>Wir erstellen maßgeschneiderte Lernpläne, die auf die spezifischen Bedürfnisse und Ziele jedes Schülers zugeschnitten sind.</p>
@@ -187,7 +192,7 @@
     </div>
     <section id="team">
         <div class="shadow-text">team</div>
-        <div class="members center">
+        <div class="members center scroll-reveal-intro">
             <div class="member">
                 <img class="image" src="team1.jpg" alt="">
                 <div class="role-info">
@@ -251,11 +256,11 @@
     </section>
     <div class="shadow-text4"><img src="item3.png" alt=""></div>
 
-    <section id="contact">
+    <section id="contact" class="scroll-reveal">
                 <h2>Unsere Kontakte</h2>
                 <h3>lass uns zusammenarbeiten</h3>
 
-                <div class="container">
+                <div class="container scroll-reveal">
                     <span class="big-circle"></span>
                     <img src="img/shape.png" class="square" alt="" />
                     <div class="form">
@@ -351,7 +356,7 @@
         </div>
         </div>
         </footer>
-
+    
 
 </body>
 </html>
